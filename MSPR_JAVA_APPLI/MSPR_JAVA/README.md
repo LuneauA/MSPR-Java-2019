@@ -1,2 +1,0 @@
-# MSPR_JAVA
-MSPR JAVA
