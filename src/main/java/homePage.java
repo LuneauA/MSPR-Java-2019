@@ -51,17 +51,17 @@ public class homePage {
                 panel.setMirrored(true);
 
                 JButton buttonTakePicture1 = new JButton("Prendre une photo");
-                //  buttonTakePicture1.addActionListener(e -> takePicture(1));
+                buttonTakePicture1.addActionListener(e2 -> new identification().takePicture(1));
                 JButton buttonTakePicture2 = new JButton("Prendre une deuxième photo");
-                // buttonTakePicture2.addActionListener(e -> takePicture(2));
+                buttonTakePicture2.addActionListener(e2 -> new identification().takePicture(2));
                 JButton buttonRekognition = new JButton("Reconnaissance");
-                /*buttonRekognition.addActionListener(e -> {
+                buttonRekognition.addActionListener(e2 -> {
                     try {
-                        rekognition();
+                        new identification().rekognition();
                     } catch (Exception e1) {
                         e1.printStackTrace();
                     }
-                });*/
+                });
                 JPanel bottomPanel = new JPanel();
                 bottomPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
                 bottomPanel.add(buttonTakePicture1);

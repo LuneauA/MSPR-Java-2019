@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MSPR_JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/identification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/identification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/homePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/identification$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/identification$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/identification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/identification.class" afterDir="false" />
     </list>
@@ -24,11 +21,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+            <state relative-caret-position="-311">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="method#$$$setupUI$$$#0;class#homePage#0" expanded="true" />
-                <element signature="e#6814#6815#0" expanded="true" />
+                <element signature="e#6869#6870#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="114">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/identification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="274">
+              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#331#332#0" expanded="true" />
@@ -60,8 +57,8 @@
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
                 <element signature="initializer##0;class#identification#0" expanded="true" />
-                <element signature="e#4847#4848#0" expanded="true" />
-                <element signature="e#4887#4888#0" expanded="true" />
+                <element signature="e#9232#9233#0" expanded="true" />
+                <element signature="e#9272#9273#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548056137505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548058221014" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/face-detection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,16 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1547825181754</updated>
       <workItem from="1547825183851" duration="1499000" />
-      <workItem from="1547834915729" duration="6586000" />
+      <workItem from="1547834915729" duration="8499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8085000" />
+    <option name="totallyTimeSpent" value="9998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,6 +282,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/identification.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -296,20 +302,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/identification.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/identification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="274">
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
@@ -317,19 +313,19 @@
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
             <element signature="initializer##0;class#identification#0" expanded="true" />
-            <element signature="e#4847#4848#0" expanded="true" />
-            <element signature="e#4887#4888#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9272#9273#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+        <state relative-caret-position="-311">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="method#$$$setupUI$$$#0;class#homePage#0" expanded="true" />
-            <element signature="e#6814#6815#0" expanded="true" />
+            <element signature="e#6869#6870#0" expanded="true" />
           </folding>
         </state>
       </provider>
