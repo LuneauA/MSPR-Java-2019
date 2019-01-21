@@ -34,6 +34,11 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.nativelibs4java</groupId>
+            <artifactId>bridj</artifactId>
+            <version>0.7.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
