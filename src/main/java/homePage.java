@@ -1,3 +1,6 @@
+import com.github.sarxos.webcam.Webcam;
+import com.github.sarxos.webcam.WebcamPanel;
+import com.github.sarxos.webcam.WebcamResolution;
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
 
@@ -38,8 +41,42 @@ public class homePage {
         btnHome.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Webcam webcam = Webcam.getDefault();
+                webcam.setViewSize(WebcamResolution.VGA.getSize());
+
+                WebcamPanel panel = new WebcamPanel(webcam);
+                panel.setFPSDisplayed(true);
+                panel.setDisplayDebugInfo(true);
+                panel.setImageSizeDisplayed(true);
+                panel.setMirrored(true);
+
+                JButton buttonTakePicture1 = new JButton("Prendre une photo");
+                //  buttonTakePicture1.addActionListener(e -> takePicture(1));
+                JButton buttonTakePicture2 = new JButton("Prendre une deuxième photo");
+                // buttonTakePicture2.addActionListener(e -> takePicture(2));
+                JButton buttonRekognition = new JButton("Reconnaissance");
+                /*buttonRekognition.addActionListener(e -> {
+                    try {
+                        rekognition();
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                });*/
+                JPanel bottomPanel = new JPanel();
+                bottomPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
+                bottomPanel.add(buttonTakePicture1);
+                bottomPanel.add(buttonTakePicture2);
+                bottomPanel.add(buttonRekognition);
+
                 JFrame frame = new JFrame("App Java");
-                frame.setContentPane(new identification().getAppIdnetification());
+                frame.setContentPane(panel);
+                frame.add(bottomPanel, BorderLayout.SOUTH);
+
+                frame.setResizable(true);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.pack();
+                frame.setVisible(true);
+
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.pack();
                 frame.setVisible(true);

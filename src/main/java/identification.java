@@ -1,3 +1,6 @@
+import com.github.sarxos.webcam.Webcam;
+import com.github.sarxos.webcam.WebcamPanel;
+import com.github.sarxos.webcam.WebcamResolution;
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
 
@@ -22,6 +25,8 @@ public class identification {
 
     public identification() {
 
+
+        getAppIdnetification();
         btnIdentifier.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

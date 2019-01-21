@@ -2,45 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/MSPR_JAVA/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/MSPR_JAVA_APPLI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/choixMateriel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/homePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/homePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/identification$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/identification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/production/MSPR_JAVA_APPLI/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/out/test/MSPR_JAVA_APPLI/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/resources/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/resources/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/choixMateriel.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/choixMateriel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/homePage.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/homePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/identification.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSPR_JAVA_APPLI/src/identification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSPR_JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MSPR_JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/identification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/identification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/identification$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/identification$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/identification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/identification.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,17 +20,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+            <state relative-caret-position="138">
+              <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+              <folding>
+                <element signature="method#$$$setupUI$$$#0;class#homePage#0" expanded="true" />
+                <element signature="e#6814#6815#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/identification.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/identification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="initializer##0;class#identification#0" expanded="true" />
+                <element signature="e#4847#4848#0" expanded="true" />
+                <element signature="e#4887#4888#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/sarxos/webcam-capture/0.3.10/webcam-capture-0.3.10.jar!/com/github/sarxos/webcam/Webcam.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homePage.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setViewSize</find>
+      <find>getAppIdnetification</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,8 +95,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/homePage.form" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/identification.form" />
+        <option value="$PROJECT_DIR$/src/main/java/identification.java" />
         <option value="$PROJECT_DIR$/src/main/java/homePage.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -85,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -92,11 +131,6 @@
             <path>
               <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="MSPR-Java-2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Java-2019" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
@@ -116,22 +150,55 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.sarxos:webcam-capture:0.3.10" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.sarxos:webcam-capture:0.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="webcam-capture-0.3.10.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.sarxos:webcam-capture:0.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="webcam-capture-0.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="webcam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.sarxos:webcam-capture:0.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="webcam-capture-0.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547825349740" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548056137505" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/face-detection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yann Cloarec\Documents\MSPR\MSPR-Java-2019\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yann Cloarec\Documents\MSPR\MSPR-Java-2019" />
     </key>
@@ -172,30 +239,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547825181754</updated>
-      <workItem from="1547825183851" duration="121000" />
+      <workItem from="1547825183851" duration="1499000" />
+      <workItem from="1547834915729" duration="6586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121000" />
+    <option name="totallyTimeSpent" value="8085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
@@ -203,25 +265,72 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homePage.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/sarxos/webcam-capture/0.3.10/webcam-capture-0.3.10.jar!/com/github/sarxos/webcam/Webcam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/identification.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/identification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="initializer##0;class#identification#0" expanded="true" />
+            <element signature="e#4847#4848#0" expanded="true" />
+            <element signature="e#4887#4888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        <state relative-caret-position="138">
+          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <folding>
+            <element signature="method#$$$setupUI$$$#0;class#homePage#0" expanded="true" />
+            <element signature="e#6814#6815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
