@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/choixMateriel.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/choixMateriel.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/choixMateriel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/choixMateriel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/choixMateriel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/choixMateriel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,15 +39,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1676" />
-          <entry key="txt" value="23" />
+          <entry key="java" value="1939" />
+          <entry key="txt" value="60" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1676" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JAVA" value="1939" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -58,17 +58,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state relative-caret-position="398">
+              <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#choixMateriel#0" />
                 <element signature="method#getData#0;class#choixMateriel#0" />
-                <element signature="e#3368#3379#0" expanded="true" />
+                <element signature="method#listeCombobox#0;class#choixMateriel#0" />
+                <element signature="e#3200#3211#0" expanded="true" />
+                <element signature="method#choixMateriel#0;class#choixMateriel#0" />
+                <element signature="initializer##0;class#choixMateriel#0" />
                 <element signature="initializer##0;class#choixMateriel#0" expanded="true" />
+                <element signature="e#4264#4322#0" />
+                <element signature="docComment;method#$$$setupUI$$$#0;class#choixMateriel#0" />
+                <element signature="method#$$$setupUI$$$#0;class#choixMateriel#0" />
+                <element signature="docComment;method#$$$getFont$$$#0;class#choixMateriel#0" />
                 <element signature="method#$$$getFont$$$#0;class#choixMateriel#0" />
-                <element signature="e#21378#21379#0" expanded="true" />
-                <element signature="e#21414#21415#0" expanded="true" />
+                <element signature="docComment;method#$$$getRootComponent$$$#0;class#choixMateriel#0" />
               </folding>
             </state>
           </provider>
@@ -156,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548153540059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548154117103" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -217,7 +223,7 @@
       <updated>1547825181754</updated>
       <workItem from="1547825183851" duration="121000" />
       <workItem from="1548084077706" duration="376000" />
-      <workItem from="1548140901669" duration="12608000" />
+      <workItem from="1548140901669" duration="13050000" />
     </task>
     <task id="LOCAL-00001" summary="Intégration API">
       <created>1548151595348</created>
@@ -226,11 +232,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548151595348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Intégration API, chargement des stocks dans l'appli">
+      <created>1548153696817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548153696817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13105000" />
+    <option name="totallyTimeSpent" value="13547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +298,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intégration API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intégration API" />
+    <MESSAGE value="Intégration API, chargement des stocks dans l'appli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intégration API, chargement des stocks dans l'appli" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
@@ -307,17 +321,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        <state relative-caret-position="398">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#choixMateriel#0" />
             <element signature="method#getData#0;class#choixMateriel#0" />
-            <element signature="e#3368#3379#0" expanded="true" />
+            <element signature="method#listeCombobox#0;class#choixMateriel#0" />
+            <element signature="e#3200#3211#0" expanded="true" />
+            <element signature="method#choixMateriel#0;class#choixMateriel#0" />
+            <element signature="initializer##0;class#choixMateriel#0" />
             <element signature="initializer##0;class#choixMateriel#0" expanded="true" />
+            <element signature="e#4264#4322#0" />
+            <element signature="docComment;method#$$$setupUI$$$#0;class#choixMateriel#0" />
+            <element signature="method#$$$setupUI$$$#0;class#choixMateriel#0" />
+            <element signature="docComment;method#$$$getFont$$$#0;class#choixMateriel#0" />
             <element signature="method#$$$getFont$$$#0;class#choixMateriel#0" />
-            <element signature="e#21378#21379#0" expanded="true" />
-            <element signature="e#21414#21415#0" expanded="true" />
+            <element signature="docComment;method#$$$getRootComponent$$$#0;class#choixMateriel#0" />
           </folding>
         </state>
       </provider>
