@@ -56,6 +56,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="f94bf">
@@ -71,6 +72,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="35058">
@@ -86,6 +88,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="7795b">
@@ -101,6 +104,8 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
+          <model/>
         </properties>
       </component>
       <hspacer id="93d81">
@@ -116,6 +121,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="2e8fa">
@@ -131,6 +137,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="e3315">
@@ -146,6 +153,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="60bb0">
@@ -161,6 +169,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="d968b">
@@ -176,6 +185,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="33dcc">
@@ -191,6 +201,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="a933a">
@@ -206,6 +217,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="a7729">
@@ -221,6 +233,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="5c338">
@@ -236,6 +249,7 @@
         </constraints>
         <properties>
           <background color="-13132095"/>
+          <editable value="false"/>
         </properties>
       </component>
       <hspacer id="42bf2">
@@ -243,14 +257,17 @@
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
-      <component id="a50c5" class="javax.swing.JComboBox" default-binding="true">
+      <component id="a50c5" class="javax.swing.JComboBox" binding="cbMousqueton">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="60" height="20"/>
           </grid>
         </constraints>
         <properties>
-          <background color="-13132095"/>
+          <background color="-1"/>
+          <editable value="false"/>
+          <foreground color="-16777216"/>
+          <model/>
         </properties>
       </component>
       <hspacer id="38b38">

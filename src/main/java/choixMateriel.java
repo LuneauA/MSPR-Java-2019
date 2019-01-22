@@ -1,15 +1,74 @@
 import com.intellij.uiDesigner.core.GridConstraints;
 import com.intellij.uiDesigner.core.GridLayoutManager;
 import com.intellij.uiDesigner.core.Spacer;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class choixMateriel {
 
     private JPanel choixMateriel;
     private JComboBox comboBox1;
     private JButton validerButton;
+    private JComboBox cbMousqueton;
+
+    public static void main(String[] args) {
+    }
+
+    private void getData() {
+        try {
+            URL url = new URL("http://localhost:8080/api/materiels");
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setRequestMethod("GET");
+            conn.setRequestProperty("Accept", "application/json");
+
+            if (conn.getResponseCode() != 200) {
+                throw new RuntimeException("Failed : HTTP error code : "
+                        + conn.getResponseCode());
+            }
+
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    (conn.getInputStream())));
+
+            String output;
+            StringBuilder sb = new StringBuilder();
+            System.out.println("Output from Server .... \n");
+            while ((output = br.readLine()) != null) {
+                //System.out.println(output);
+                sb.append(output);
+            }
+            try {
+                JSONObject json = new JSONObject(sb.toString());
+                JSONObject base = json.getJSONObject("_embedded");
+                JSONArray materiels = base.getJSONArray("materiels");
+
+                for (int i = 0; i < materiels.length(); ++i) {
+                    JSONObject mat = materiels.getJSONObject(i);
+                    int stock = mat.getInt("stock");
+                    String lib = mat.getString("libelle");
+                    System.out.println(lib + ", stock de : " + stock);
+                    cbMousqueton.addItem(stock);
+                }
+                //System.out.println(materiels.toString());
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            conn.disconnect();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public JPanel getChoixMateriel() {
         return choixMateriel;
@@ -19,9 +78,8 @@ public class choixMateriel {
         this.choixMateriel = choixMateriel;
     }
 
-
     public choixMateriel() {
-
+        getData();
     }
 
     {
@@ -65,72 +123,91 @@ public class choixMateriel {
         choixMateriel.add(spacer1, new GridConstraints(0, 5, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         comboBox1 = new JComboBox();
         comboBox1.setBackground(new Color(-13132095));
+        comboBox1.setEditable(false);
         choixMateriel.add(comboBox1, new GridConstraints(14, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer2 = new Spacer();
         choixMateriel.add(spacer2, new GridConstraints(14, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox2 = new JComboBox();
         comboBox2.setBackground(new Color(-13132095));
+        comboBox2.setEditable(false);
         choixMateriel.add(comboBox2, new GridConstraints(13, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer3 = new Spacer();
         choixMateriel.add(spacer3, new GridConstraints(13, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox3 = new JComboBox();
         comboBox3.setBackground(new Color(-13132095));
+        comboBox3.setEditable(false);
         choixMateriel.add(comboBox3, new GridConstraints(12, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer4 = new Spacer();
         choixMateriel.add(spacer4, new GridConstraints(12, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox4 = new JComboBox();
         comboBox4.setBackground(new Color(-13132095));
+        comboBox4.setEditable(false);
+        final DefaultComboBoxModel defaultComboBoxModel1 = new DefaultComboBoxModel();
+        comboBox4.setModel(defaultComboBoxModel1);
         choixMateriel.add(comboBox4, new GridConstraints(11, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer5 = new Spacer();
         choixMateriel.add(spacer5, new GridConstraints(11, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox5 = new JComboBox();
         comboBox5.setBackground(new Color(-13132095));
+        comboBox5.setEditable(false);
         choixMateriel.add(comboBox5, new GridConstraints(10, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer6 = new Spacer();
         choixMateriel.add(spacer6, new GridConstraints(10, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox6 = new JComboBox();
         comboBox6.setBackground(new Color(-13132095));
+        comboBox6.setEditable(false);
         choixMateriel.add(comboBox6, new GridConstraints(9, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer7 = new Spacer();
         choixMateriel.add(spacer7, new GridConstraints(9, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox7 = new JComboBox();
         comboBox7.setBackground(new Color(-13132095));
+        comboBox7.setEditable(false);
         choixMateriel.add(comboBox7, new GridConstraints(8, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer8 = new Spacer();
         choixMateriel.add(spacer8, new GridConstraints(8, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox8 = new JComboBox();
         comboBox8.setBackground(new Color(-13132095));
+        comboBox8.setEditable(false);
         choixMateriel.add(comboBox8, new GridConstraints(7, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer9 = new Spacer();
         choixMateriel.add(spacer9, new GridConstraints(7, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox9 = new JComboBox();
         comboBox9.setBackground(new Color(-13132095));
+        comboBox9.setEditable(false);
         choixMateriel.add(comboBox9, new GridConstraints(6, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer10 = new Spacer();
         choixMateriel.add(spacer10, new GridConstraints(6, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox10 = new JComboBox();
         comboBox10.setBackground(new Color(-13132095));
+        comboBox10.setEditable(false);
         choixMateriel.add(comboBox10, new GridConstraints(5, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer11 = new Spacer();
         choixMateriel.add(spacer11, new GridConstraints(5, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox11 = new JComboBox();
         comboBox11.setBackground(new Color(-13132095));
+        comboBox11.setEditable(false);
         choixMateriel.add(comboBox11, new GridConstraints(4, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer12 = new Spacer();
         choixMateriel.add(spacer12, new GridConstraints(4, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox12 = new JComboBox();
         comboBox12.setBackground(new Color(-13132095));
+        comboBox12.setEditable(false);
         choixMateriel.add(comboBox12, new GridConstraints(3, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer13 = new Spacer();
         choixMateriel.add(spacer13, new GridConstraints(3, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         final JComboBox comboBox13 = new JComboBox();
         comboBox13.setBackground(new Color(-13132095));
+        comboBox13.setEditable(false);
         choixMateriel.add(comboBox13, new GridConstraints(2, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer14 = new Spacer();
         choixMateriel.add(spacer14, new GridConstraints(2, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
-        final JComboBox comboBox14 = new JComboBox();
-        comboBox14.setBackground(new Color(-13132095));
-        choixMateriel.add(comboBox14, new GridConstraints(1, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
+        cbMousqueton = new JComboBox();
+        cbMousqueton.setBackground(new Color(-1));
+        cbMousqueton.setEditable(false);
+        cbMousqueton.setForeground(new Color(-16777216));
+        final DefaultComboBoxModel defaultComboBoxModel2 = new DefaultComboBoxModel();
+        cbMousqueton.setModel(defaultComboBoxModel2);
+        choixMateriel.add(cbMousqueton, new GridConstraints(1, 3, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(60, 20), null, 0, false));
         final Spacer spacer15 = new Spacer();
         choixMateriel.add(spacer15, new GridConstraints(1, 4, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, 1, null, null, null, 0, false));
         validerButton = new JButton();
