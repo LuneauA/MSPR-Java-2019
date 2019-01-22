@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="">
+    <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="Intégration API, chargement des stocks (avec gestion des emprunts) dans l'appli, ajout de commentaire pour la compréhension">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/choixMateriel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/choixMateriel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/choixMateriel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/choixMateriel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,28 +33,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="4" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="4" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3354" />
-          <entry key="txt" value="104" />
+          <entry key="java" value="3366" />
+          <entry key="txt" value="132" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3354" />
-          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="JAVA" value="3366" />
+          <entry key="PLAIN_TEXT" value="132" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -68,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="466">
+              <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#listeCombobox#0;class#choixMateriel#0" />
@@ -81,6 +80,18 @@
                 <element signature="docComment;method#$$$getFont$$$#0;class#choixMateriel#0" />
                 <element signature="method#$$$getFont$$$#0;class#choixMateriel#0" />
                 <element signature="docComment;method#$$$getRootComponent$$$#0;class#choixMateriel#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +129,8 @@
         <option value="$PROJECT_DIR$/src/main/java/homePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/choixMateriel.form" />
-        <option value="$PROJECT_DIR$/src/main/java/api.java" />
         <option value="$PROJECT_DIR$/src/main/java/choixMateriel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api.java" />
       </list>
     </option>
   </component>
@@ -177,6 +188,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MSPR_JAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MSPR-Java-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="choixMateriel" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548176403838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548185844719" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,7 +268,7 @@
       <workItem from="1548084077706" duration="376000" />
       <workItem from="1548140901669" duration="13506000" />
       <workItem from="1548171842934" duration="3866000" />
-      <workItem from="1548183156887" duration="1236000" />
+      <workItem from="1548183156887" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="Intégration API">
       <created>1548151595348</created>
@@ -279,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548154417508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Intégration API, chargement des stocks (avec gestion des emprunts) dans l'appli, ajout de commentaire pour la compréhension">
+      <created>1548184449228</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548184449229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19105000" />
+    <option name="totallyTimeSpent" value="20523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,7 +343,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,6 +360,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -341,7 +393,8 @@
     <MESSAGE value="Intégration API" />
     <MESSAGE value="Intégration API, chargement des stocks dans l'appli" />
     <MESSAGE value="Intégration API, chargement des stocks dans l'appli, ajout de commentaire pour la compréhension" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intégration API, chargement des stocks dans l'appli, ajout de commentaire pour la compréhension" />
+    <MESSAGE value="Intégration API, chargement des stocks (avec gestion des emprunts) dans l'appli, ajout de commentaire pour la compréhension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intégration API, chargement des stocks (avec gestion des emprunts) dans l'appli, ajout de commentaire pour la compréhension" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
@@ -361,17 +414,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getDataMateriel#0;class#api#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/identification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -381,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="466">
+          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#listeCombobox#0;class#choixMateriel#0" />
@@ -391,6 +433,16 @@
             <element signature="docComment;method#$$$getFont$$$#0;class#choixMateriel#0" />
             <element signature="method#$$$getFont$$$#0;class#choixMateriel#0" />
             <element signature="docComment;method#$$$getRootComponent$$$#0;class#choixMateriel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
