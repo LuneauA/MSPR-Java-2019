@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90a0d1d2-cf51-41e2-aa36-6f42fb7e2f3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/choixMateriel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/choixMateriel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/choixMateriel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/choixMateriel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,15 +38,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1939" />
-          <entry key="txt" value="60" />
+          <entry key="txt" value="104" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1939" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="PLAIN_TEXT" value="104" />
           <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -58,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+            <state relative-caret-position="397">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#choixMateriel#0" />
@@ -68,7 +71,6 @@
                 <element signature="e#3200#3211#0" expanded="true" />
                 <element signature="method#choixMateriel#0;class#choixMateriel#0" />
                 <element signature="initializer##0;class#choixMateriel#0" />
-                <element signature="initializer##0;class#choixMateriel#0" expanded="true" />
                 <element signature="e#4264#4322#0" />
                 <element signature="docComment;method#$$$setupUI$$$#0;class#choixMateriel#0" />
                 <element signature="method#$$$setupUI$$$#0;class#choixMateriel#0" />
@@ -89,6 +91,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548154117103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548154152494" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,7 +230,7 @@
       <updated>1547825181754</updated>
       <workItem from="1547825183851" duration="121000" />
       <workItem from="1548084077706" duration="376000" />
-      <workItem from="1548140901669" duration="13050000" />
+      <workItem from="1548140901669" duration="13336000" />
     </task>
     <task id="LOCAL-00001" summary="Intégration API">
       <created>1548151595348</created>
@@ -239,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548153696817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Intégration API, chargement des stocks dans l'appli, ajout de commentaire pour la compréhension">
+      <created>1548154149314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548154149314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13547000" />
+    <option name="totallyTimeSpent" value="13833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +313,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intégration API" />
     <MESSAGE value="Intégration API, chargement des stocks dans l'appli" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intégration API, chargement des stocks dans l'appli" />
+    <MESSAGE value="Intégration API, chargement des stocks dans l'appli, ajout de commentaire pour la compréhension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intégration API, chargement des stocks dans l'appli, ajout de commentaire pour la compréhension" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/homePage.java">
@@ -321,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/choixMateriel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+        <state relative-caret-position="397">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#choixMateriel#0" />
@@ -331,7 +346,6 @@
             <element signature="e#3200#3211#0" expanded="true" />
             <element signature="method#choixMateriel#0;class#choixMateriel#0" />
             <element signature="initializer##0;class#choixMateriel#0" />
-            <element signature="initializer##0;class#choixMateriel#0" expanded="true" />
             <element signature="e#4264#4322#0" />
             <element signature="docComment;method#$$$setupUI$$$#0;class#choixMateriel#0" />
             <element signature="method#$$$setupUI$$$#0;class#choixMateriel#0" />
